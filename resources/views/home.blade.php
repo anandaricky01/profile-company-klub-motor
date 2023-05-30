@@ -15,7 +15,7 @@
             Di klub motor hobi kami, kami berfokus pada pasar di mana semangat, inovasi, dan dedikasi dapat memunculkan
             nilai jangka panjang dan mendorong pertumbuhan komunitas.</p>
         <div class="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
-            <a href="#"
+            <a href="{{ route('tentang_kami') }}"
                 class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-red-700 hover:bg-red-800 focus:ring-4 focus:ring-red-300 dark:focus:ring-red-900">
                 Tentang Kami
                 <svg aria-hidden="true" class="ml-2 -mr-1 w-4 h-4" fill="currentColor" viewBox="0 0 20 20"
@@ -25,7 +25,7 @@
                         clip-rule="evenodd"></path>
                 </svg>
             </a>
-            <a href="#"
+            <a href="{{ route('tentang_kami') }}"
                 class="inline-flex justify-center hover:text-white items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg border border-red-700 hover:border-white hover:bg-red-500/75 focus:ring-4 focus:ring-red-400">
                 Learn more
             </a>
@@ -99,7 +99,6 @@
             </div>
         </div>
     </div>
-
 </section>
 
 <section id="about-us" class="p-10 bg-gray-100">
@@ -125,7 +124,7 @@
                     Kisah kami dimulai pada <span class="text-red-700 font-bold">tahun 1995</span>.
                     Sebuah kelompok kecil penggemar motor yang memiliki semangat dan dedikasi yang sama untuk menjelajahi dunia di atas roda memutuskan untuk membentuk sebuah klub.
                 </p>
-                <a href="#"
+                <a href="{{ route('sejarah') }}"
                     class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-red-700 hover:bg-red-800 focus:ring-4 focus:ring-red-300 dark:focus:ring-red-900">
                     Read more
                     <svg aria-hidden="true" class="ml-2 -mr-1 w-4 h-4" fill="currentColor" viewBox="0 0 20 20"
@@ -275,11 +274,11 @@
     </div>
     <div class="grid grid-cols-4 gap-4">
         <div class="col-span-4 md:col-span-1 w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-            <a href="#">
+            <a href="{{ route('product.index') }}">
                 <img class="p-8 rounded-t-lg" src="{{ asset('img/product-1.png') }}" alt="product image" />
             </a>
             <div class="px-5 pb-5">
-                <a href="#">
+                <a href="{{ route('product.index') }}">
                     <h5 class="text-xl font-semibold tracking-tight text-gray-900 dark:text-white">White Cap Original</h5>
                 </a>
                 <div class="flex items-center mt-2.5 mb-5">
@@ -292,16 +291,16 @@
                 </div>
                 <div class="flex items-center justify-between">
                     <span class="text-3xl font-bold text-gray-900 dark:text-white">Rp.30K</span>
-                    <a href="#" class="text-white bg-red-700 hover:bg-red-800 focus:ring-4 focus:outline-none focus:ring-red-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Add to cart</a>
+                    <a href="{{ route('product.index') }}" class="text-white bg-red-700 hover:bg-red-800 focus:ring-4 focus:outline-none focus:ring-red-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Add to cart</a>
                 </div>
             </div>
         </div>
         <div class="col-span-4 md:col-span-1 w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-            <a href="#">
+            <a href="{{ route('product.index') }}">
                 <img class="p-8 rounded-t-lg" src="{{ asset('img/product-2.png') }}" alt="product image" />
             </a>
             <div class="px-5 pb-5">
-                <a href="#">
+                <a href="{{ route('product.index') }}">
                     <h5 class="text-xl font-semibold tracking-tight text-gray-900 dark:text-white">Blue Bomber Kekinian</h5>
                 </a>
                 <div class="flex items-center mt-2.5 mb-5">
@@ -314,16 +313,16 @@
                 </div>
                 <div class="flex items-center justify-between">
                     <span class="text-3xl font-bold text-gray-900 dark:text-white">Rp.200K</span>
-                    <a href="#" class="text-white bg-red-700 hover:bg-red-800 focus:ring-4 focus:outline-none focus:ring-red-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Add to cart</a>
+                    <a href="{{ route('product.index') }}" class="text-white bg-red-700 hover:bg-red-800 focus:ring-4 focus:outline-none focus:ring-red-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Add to cart</a>
                 </div>
             </div>
         </div>
         <div class="col-span-4 md:col-span-1 w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-            <a href="#">
+            <a href="{{ route('product.index') }}">
                 <img class="p-8 rounded-t-lg" src="{{ asset('img/product-3.png') }}" alt="product image" />
             </a>
             <div class="px-5 pb-5">
-                <a href="#">
+                <a href="{{ route('product.index') }}">
                     <h5 class="text-xl font-semibold tracking-tight text-gray-900 dark:text-white">Black Cap Original</h5>
                 </a>
                 <div class="flex items-center mt-2.5 mb-5">
@@ -336,16 +335,16 @@
                 </div>
                 <div class="flex items-center justify-between">
                     <span class="text-3xl font-bold text-gray-900 dark:text-white">Rp.30K</span>
-                    <a href="#" class="text-white bg-red-700 hover:bg-red-800 focus:ring-4 focus:outline-none focus:ring-red-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Add to cart</a>
+                    <a href="{{ route('product.index') }}" class="text-white bg-red-700 hover:bg-red-800 focus:ring-4 focus:outline-none focus:ring-red-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Add to cart</a>
                 </div>
             </div>
         </div>
         <div class="relative col-span-4 md:col-span-1 w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-            <a href="#">
+            <a href="{{ route('product.index') }}">
                 <img class="p-8 rounded-t-lg blur-sm" src="{{ asset('img/product-1.png') }}" alt="product image" />
             </a>
             <div class="px-5 pb-5">
-                <a href="#">
+                <a href="{{ route('product.index') }}">
                     <h5 class="text-xl font-semibold tracking-tight text-gray-900 dark:text-white blur-sm">Temukan Produk Lainnya!</h5>
                 </a>
                 <div class="flex items-center mt-2.5 mb-5 blur-sm">
@@ -360,7 +359,7 @@
                     <span class="text-3xl font-bold text-gray-900 dark:text-white blur-sm">$599</span>
                 </div>
             </div>
-            <a href="#" class="text-white bg-red-700 hover:bg-red-800 focus:ring-4 focus:outline-none focus:ring-red-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 absolute top-1/2 start-20">Lihat produk lain</a>
+            <a href="{{ route('product.index') }}" class="text-white bg-red-700 hover:bg-red-800 focus:ring-4 focus:outline-none focus:ring-red-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 absolute top-1/2 start-20">Lihat produk lain</a>
         </div>
     </div>
 </section>
@@ -447,25 +446,25 @@
     </div>
     <div class="grid grid-cols-4 gap-4 py-5">
         <figure class="max-w-lg col-span-2 md:col-span-1 transition-all duration-300 hover:-translate-y-2 hover:scale-110">
-            <a href="">
+            <a href="{{ route('gallery.index') }}">
                 <img class="h-auto max-w-full rounded-lg" src="{{ asset('img/pengantar-photo-1.jpg') }}" alt="image description">
                 <figcaption class="mt-2 text-sm text-center text-gray-500 dark:text-gray-400">Kegiatan</figcaption>
             </a>
         </figure>
         <figure class="max-w-lg col-span-2 md:col-span-1 transition-all duration-300 hover:-translate-y-2 hover:scale-110">
-            <a href="">
+            <a href="{{ route('gallery.index') }}">
                 <img class="h-auto max-w-full rounded-lg" src="{{ asset('img/pengantar-photo-1.jpg') }}" alt="image description">
                 <figcaption class="mt-2 text-sm text-center text-gray-500 dark:text-gray-400">Kegiatan</figcaption>
             </a>
         </figure>
         <figure class="max-w-lg col-span-2 md:col-span-1 transition-all duration-300 hover:-translate-y-2 hover:scale-110">
-            <a href="">
+            <a href="{{ route('gallery.index') }}">
                 <img class="h-auto max-w-full rounded-lg" src="{{ asset('img/pengantar-photo-1.jpg') }}" alt="image description">
                 <figcaption class="mt-2 text-sm text-center text-gray-500 dark:text-gray-400">Kegiatan</figcaption>
             </a>
         </figure>
         <figure class="max-w-lg col-span-2 md:col-span-1 transition-all duration-300 hover:-translate-y-2 hover:scale-110">
-            <a href="">
+            <a href="{{ route('gallery.index') }}">
                 <img class="h-auto max-w-full rounded-lg" src="{{ asset('img/pengantar-photo-1.jpg') }}" alt="image description">
                 <figcaption class="mt-2 text-sm text-center text-gray-500 dark:text-gray-400">Kegiatan</figcaption>
             </a>
@@ -486,7 +485,7 @@
     </div>
     <div class="grid grid-cols-2 my-10">
         <div class="col-span-2 md:col-span-1 gap-8">
-            <a href="#" class="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
+            <a href="{{ route('event.index') }}" class="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
                 <img class="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-l-lg" src="{{ asset('img/gallery-3.jpg') }}" alt="">
                 <div class="flex flex-col justify-between p-4 leading-normal">
                     <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Blakra'an</h5>
@@ -496,7 +495,7 @@
             </a>
         </div>
         <div class="col-span-2 md:col-span-1">
-            <a href="#" class="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
+            <a href="{{ route('event.index') }}" class="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
                 <img class="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-l-lg" src="{{ asset('img/gallery-3.jpg') }}" alt="">
                 <div class="flex flex-col justify-between p-4 leading-normal">
                     <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Blakra'an</h5>
@@ -507,7 +506,7 @@
         </div>
     </div>
     <div class="m-auto text-center">
-        <a href="" class="p-2 bg-red-700 text-white rounded-md hover:bg-red-800">Telusuri Event lainnya</a>
+        <a href="{{ route('event.index') }}" class="p-2 bg-red-700 text-white rounded-md hover:bg-red-800">Telusuri Event lainnya</a>
     </div>
 </section>
 
@@ -524,46 +523,46 @@
     </div>
     <div class="grid grid-cols-3 gap-4 my-10">
 
-        <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-            <a href="#">
+        <div class="col-span-3 md:col-span-1 max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+            <a href="{{ route('article.index') }}">
                 <img class="rounded-t-lg" src="{{ asset('img/gallery-1.jpg') }}" alt="" />
             </a>
             <div class="p-5">
-                <a href="#">
+                <a href="{{ route('article.index') }}">
                     <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology acquisitions 2021</h5>
                 </a>
                 <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
-                <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                <a href="{{ route('article.index') }}" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
                     Read more
                     <svg aria-hidden="true" class="w-4 h-4 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
                 </a>
             </div>
         </div>
-        <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-            <a href="#">
+        <div class="col-span-3 md:col-span-1 max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+            <a href="{{ route('article.index') }}">
                 <img class="rounded-t-lg" src="{{ asset('img/gallery-2.jpg') }}" alt="" />
             </a>
             <div class="p-5">
-                <a href="#">
+                <a href="{{ route('article.index') }}">
                     <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology acquisitions 2021</h5>
                 </a>
                 <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
-                <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                <a href="{{ route('article.index') }}" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
                     Read more
                     <svg aria-hidden="true" class="w-4 h-4 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
                 </a>
             </div>
         </div>
-        <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-            <a href="#">
+        <div class="col-span-3 md:col-span-1 max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+            <a href="{{ route('article.index') }}">
                 <img class="rounded-t-lg" src="{{ asset('img/pengantar-photo-1.jpg') }}" alt="" />
             </a>
             <div class="p-5">
-                <a href="#">
+                <a href="{{ route('article.index') }}">
                     <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology acquisitions 2021</h5>
                 </a>
                 <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
-                <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                <a href="{{ route('article.index') }}" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
                     Read more
                     <svg aria-hidden="true" class="w-4 h-4 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
                 </a>
@@ -571,7 +570,7 @@
         </div>
     </div>
     <div class="m-auto text-center">
-        <a href="" class="p-2 bg-red-700 text-white rounded-md hover:bg-red-800">Telusuri Artikel lainnya</a>
+        <a href="{{ route('article.index') }}" class="p-2 bg-red-700 text-white rounded-md hover:bg-red-800">Telusuri Artikel lainnya</a>
     </div>
 </section>
 
